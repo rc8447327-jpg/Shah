@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shah Pet Shop</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+        }
+        header {
+            background: #ff9800;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            border-left: 5px solid #ff9800;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        .info {
+            background: white;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            font-size: 18px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Shah Pet Shop</header>
+
+    <div class="container">
+
+        <div class="section-title">Our Pets</div>
+
+        <div class="gallery">
+            <img src="https://i.ibb.co/0j1Yp5T/parrot.jpg" alt="Parrot">
+            <img src="https://i.ibb.co/Bz5C6Zg/love-birds.jpg" alt="Love Birds">
+            <img src="https://i.ibb.co/3vnVD5C/rabbit.jpg" alt="Rabbit">
+            <img src="https://i.ibb.co/jLzCWfL/dog.jpg" alt="Dog">
+            <img src="https://i.ibb.co/FHf5M1m/cat.jpg" alt="Cat">
+        </div>
+
+        <div class="section-title">Shop Information</div>
+
+        <div class="info">
+            <p><strong>📍 Location:</strong> Pandey School ke bagal</p>
+            <p><strong>📞 Contact:</strong> +91 Number</p>
+            <p><strong>🕒 Timing:</strong> 10:00 AM – 08:00 PM</p>
+        </div>
+
+    </div>
+
+    <footer> THANKS FOR VISIT MY PAGE</footer>
+
+</body>
+</html>
